@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/rocketPicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/rocketName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="32dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/clickForMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2C2C2C"
+        android:fontFamily="serif-monospace"
+        android:text="Click For More Info"
+        android:textSize="32dp"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
